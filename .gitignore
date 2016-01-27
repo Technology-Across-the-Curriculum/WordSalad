@@ -2,4 +2,5 @@
 /.idea
 
 ## Vagrant files
-/vagrant
+VagrantFile
+.vagrant
