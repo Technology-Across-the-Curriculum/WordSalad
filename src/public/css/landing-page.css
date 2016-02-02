@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'Lato';
+}
+
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+h1 {
+    font-size: 96px;
+    background: #70e1f5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #70e1f5, #ffd194); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #70e1f5, #ffd194); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 84px;
+}
+
+h3 {
+    font-size: 72px;
+}
+
+h4 {
+    font-size: 60px;
+}
+
+h5 {
+    font-size: 48px;
+}
+
+h6 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 24px;
+}
