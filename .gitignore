@@ -8,3 +8,4 @@ VagrantFile
 
 ## Project files to ignore
 /src/application/config/config.php
+/src/public/libs/
