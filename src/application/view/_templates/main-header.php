@@ -1,3 +1,12 @@
+<?php
+/**
+ * Created by Nathan Healea.
+ * Project: WordSalad
+ * File: main-header.php
+ * Date: 2/4/16
+ * Time: 1:10 PM
+ */
+?>
 <!-- Main Header -->
 <header class="main-header">
 

@@ -1,3 +1,12 @@
+<?php
+/**
+ * Created by Nathan Healea.
+ * Project: WordSalad
+ * File: main-footer.php
+ * Date: 2/4/16
+ * Time: 1:10 PM
+ */
+?>
 <!-- Main Footer -->
 <footer class="main-footer">
     <!-- To the right -->

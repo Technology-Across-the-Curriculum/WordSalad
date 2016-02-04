@@ -1,3 +1,13 @@
+<?php
+/**
+ * Created by Nathan Healea.
+ * Project: WordSalad
+ * File: main-sidebar.php
+ * Date: 2/4/16
+ * Time: 1:10 PM
+ */
+?>
+
 <!-- Left side column. contains the logo and sidebar -->
 <aside class="main-sidebar">
 
