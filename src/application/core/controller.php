@@ -12,6 +12,13 @@ class Controller
      */
     public $entity = null;
 
+    /**
+     * Location Information
+     */
+    public $header;
+    public $description;
+    public $breadcrumbs;
+
 
     function _loadModel($model)
     {
