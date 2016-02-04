@@ -17,6 +17,8 @@ define('ROOT', dirname(__DIR__) . DIRECTORY_SEPARATOR);
 // set a constant that holds the project's "application" folder, like "/var/www/application".
 define('APP', ROOT . 'application' . DIRECTORY_SEPARATOR);
 
+define('TEMP', APP . 'view' . DIRECTORY_SEPARATOR . '_templates' . DIRECTORY_SEPARATOR);
+
 // This is the (totally optional) auto-loader for Composer-dependencies (to load tools into your project).
 // If you have no idea what this means: Don't worry, you don't need it, simply leave it like it is.
 if (file_exists(ROOT . 'vendor/autoload.php')) {
