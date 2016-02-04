@@ -1,6 +1,10 @@
+
 ## InteliJ Informaion
 /.idea
 
 ## Vagrant files
 VagrantFile
 .vagrant
+
+## Project files to ignore
+/src/application/config/config.php
