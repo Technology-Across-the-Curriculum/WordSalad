@@ -8,7 +8,7 @@
  * This is really weird behaviour, but documented here: http://php.net/manual/en/language.oop5.decon.php
  *
  */
-class Home extends Controller
+class HomeController extends Controller
 {
     function __construct(){
         /** This is an example for loading models and entities for the controller to use.
@@ -30,6 +30,7 @@ class Home extends Controller
      */
     public function index()
     {
+
         // load view
         require APP . 'view/home/index.php';
 
