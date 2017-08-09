@@ -58,6 +58,6 @@ define('DB_PASS', 'password');
 define('DB_CHARSET', 'utf8');
 
 /* For live Production */
-define('DB_NAME_LIVE', 'databas');
+define('DB_NAME_LIVE', 'database');
 define('DB_USER_LIVE', 'username');
 define('DB_PASS_LIVE', 'password');
