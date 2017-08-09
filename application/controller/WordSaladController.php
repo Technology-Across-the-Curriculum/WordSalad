@@ -29,8 +29,10 @@
             $this->BackupLogModel->InitializeCurrent();
             $this->BackupLogModel->InsertBackupLog();
             $this->BackupLogModel->BackupMatrix($this->MatrixModel->GetMatrix(), $this->MatrixModel->GetHeader());
+            var_dump(URL);
+            header('location: ' . URL . 'MatrixController');
+            exit();
 
-            header('location: ' . URL . 'MatrixController/index');
         }
 
         public function trainMatrix(){
@@ -41,8 +43,7 @@
             $this->BackupLogModel->BackupMatrix($this->MatrixModel->GetMatrix(), $this->MatrixModel->GetHeader());
             $this->MatrixModel->UpdateMatrix($trainInfo['Matrix']);
             $this->BackupLogModel->UpdateCurrent($trainInfo['Threshold'],$trainInfo['Percentage']);
-
-            header('location: ' . URL . 'MatrixController/index');
+            header('location: ' . URL . 'MatrixController');
 
         }
 

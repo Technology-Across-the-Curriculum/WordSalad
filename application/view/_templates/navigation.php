@@ -24,21 +24,22 @@
                         <a href="<?php echo URL; ?>DashboardController/index"><i
                               class="fa fa-dashboard fa-fw"></i>Dashboard</a>
                     </li>
+
                     <!--<li>
                         <a href="<?php /*echo URL; */?>DashboardController/debug"><i
                               class="fa fa-bug fa-fw"></i>Debug Output</a>
-                    </li>-->
+                    </li>!-->
                     <li>
                         <a href="<?php echo URL; ?>MatrixController/index"><i class="fa fa-table fa-fw"></i>Matrix</a>
                     </li>
-                    <!--<li>
-                        <a href="<?php /*echo URL; */?>BackupLogController/index">
+                    <li>
+                        <a href="<?php echo URL; ?>BackupLogController/index">
                             <i class="fa fa-edit fa-fw"></i>Logs</a>
-                    </li>-->
-                    <!--<li>
-                        <a href="<?php /*echo URL; */?>TestController/index">
+                    </li>
+                    <li>
+                        <a href="<?php echo URL; ?>TestController/index">
                             <i class="fa fa-edit fa-fw"></i>Test WordSalad</a>
-                    </li>-->
+                    </li>
                 </ul>
             </div>
             <!-- /.sidebar-collapse -->

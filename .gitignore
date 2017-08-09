@@ -8,4 +8,6 @@ VagrantFile
 
 ## Project files to ignore
 application/config/config.php
+public/bower_components/
 public/libs/
+.ftpconfig
