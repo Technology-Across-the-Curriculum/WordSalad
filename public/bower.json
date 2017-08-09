@@ -1,0 +1,32 @@
+{
+  "name": "WordSalad",
+  "homepage": "https://github.com/NathanHealea/WordSalad",
+  "authors": [
+    "NathanHealea <nate.healea@gmail.com>"
+  ],
+  "description": "text analysis service designed to analyze the authenticity of private writing samples",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-social": "^5.1.1",
+    "datatables": "^1.10.15",
+    "datatables-plugins": "^1.10.15",
+    "datatables-responsive": "^2.1.1",
+    "float": "^1.0.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "metisMenu": "^2.7.0",
+    "mocha": "^3.5.0",
+    "morris.js": "morrisjs#^0.5.1",
+    "raphael": "^2.2.7"
+  }
+}

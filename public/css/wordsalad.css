@@ -1,0 +1,21 @@
+.display-matrix{
+    max-width: inherit;
+    max-height: 500px;
+    overflow-y: scroll !important;
+    overflow-x: scroll !important;
+
+}
+.text-output{
+    max-width:300px;
+    max-height:100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.large{
+    font-size: 2em;
+}
+
+a:hover{
+  text-decoration: none;
+}
